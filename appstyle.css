@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    #FFD4D4  FFFFE8 CDE990 AACB73
+}
+
+.lo{
+   padding:50px ;
+   color: white;
+   font-size:40px ;
+}
+
+span{
+    color: rgb(31, 212, 56);
+}
+
+a{
+    text-decoration: none;
+    font-size:1.9em;
+    color:rgb(247, 59, 59);
+}
+
+.ho {
+    display: flex;
+    justify-content:end;
+    gap: 6em;
+    text-decoration: none;
+    position: relative;
+    bottom: 5.4em;
+}
+
+header{
+    text-align: center;
+    background-image: url(app/back.jpg);
+    background-size: cover;
+    height:30em ;
+    
+}
+
+.header , .bi{
+    position: relative;
+    top:07em ;
+    font-size:2em ;
+    font-weight: bold;
+    font-style:times new roman;
+    color: white;
+}
+
+.nav{
+    position: relative;
+    bottom:30em ;
+}
+
+button{
+    position: relative;
+     top:30px ;
+      width: 180px;
+      height: 37px;
+      color: white;
+      background-color:  #c77d1d ;
+      font-size: 0.6em;
+      border: 1px solid  #c77d1d ;
+}
+
+.about{
+    text-align: center;
+    position: relative;
+     bottom:6em ;
+     color: rgb(30, 255, 0);
+     font-size:1.3em ;
+}
+
+.h2{
+    padding-top: 10px;
+    color: black;
+}
+.gra{
+    position:relative ;
+    bottotop:10px ;
+    right:10px ;
+    left:60px ;
+   
+}
+
+.p{
+    padding-top:20px ;
+    font-size:1.6em ;
+}
+
+
+.g{
+     position: relative;
+     bottom:210px ;
+     left:75em ;
+     
+}
+
+.sub{
+    border:  1px solid #FFD4D4;
+    background-color:#FFD4D4 ;
+    height:50vh ;
+    text-align: center;
+    position: relative;
+    bottom:80px ;
+    border-radius:1.3em ;
+    color:deeppink;
+}
+
+.sub > h1{
+    position: relative;
+  bottom: 70px;
+  color: rgb(19, 211, 19);
+}
+
+input{
+    display: flex;
+    flex-direction:row;
+    padding: 10px;
+    margin:20px ;
+    font-size:2em ;
+    height: 30px;
+    width: 590px;
+    border-radius: 0.2em;
+    border-color: rgb(74, 150, 238);  
+}
+
+.bs{
+    color:white;
+    font-size: 2em;
+    width: 8em;
+    background-color: rgb(241, 35, 35) ;
+    border-radius:0.7em ;
+    border:red;
+}
+
+.bs:hover {
+    background: rgb(238, 149, 149);
+    cursor: pointer;
+}
+
+.our{
+    text-align: center;
+    font-size: 1.7em;
+    border: 1px solid rgb(109, 106, 106);
+    background-color: rgb(109, 106, 106);
+    color:white;
+    margin-top:1px;
+}
+
+.our > h1{
+  color: rgb(19, 211, 19);
+  position: relative;
+  bottom: 70px;
+}
+
+.team{
+     display: flex;
+     justify-content: center;
+     gap:10em ;
+     padding-top: 2em;
+}
+
+.one, .two , .three{
+    border-radius: 50%;
+    border: 9px solid black;
+    border-color: rgb(243, 209, 16);
+}
+
+.na{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    color: yellow;
+}
+
+.role{
+    font-size: 0.6em;
+    display: flex;
+    justify-content: space-around;
+    color:rgb(13, 13, 14);
+    position: relative;
+    bottom: 9px;
+}
+
+.c{
+       padding-left : 90px; 
+       padding-top:20px ;
+}
+
+.d{
+    padding-right : 100px; 
+    padding-top:20px ;
+    padding-left:50px ;
+}
+
+.ma{
+    padding-top:20px ;
+    padding-right: 100px;
+}
+.ta{
+    padding-left: 20px;
+}
+
+.por{
+    text-align: center;
+}
+
+.por > h1 {
+    color: rgb(19, 211, 19);
+    margin-top:20px ;
+    font-size:3em ;
+}
+
+.aip{
+    display: flex;
+    justify-content:center;
+    gap: 10em;
+    padding: 20px;
+}
+
+.all ,.id , .ph, .bus,.des{
+    border: 4px solid  blue;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius:10px ;
+    padding: 10px;
+}
+
+.conimg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content:space-evenly;
+    gap:70px ;
+    column-gap: 30px;
+    margin-top:30px ;
+
+}
+
+.im1, .im2, .im3, .im4, .im5, .im6 ,.im7, .im8, .im9 {
+    border: 10px solid rgb(235, 62, 31);
+    width:400px ;
+}
+
+
+.foot{
+    background-image: url(app/conimages.jpg);
+    opacity: 0.7;
+    margin-top: 40px;
+    height:100vh ;
+    background-size: cover;
+}
+
+ input{
+   position: relative;
+   left:20em ;
+   height:8vh ;
+   padding-left:40px ;
+   color: rgb(12, 12, 11);
+   font-weight: bold;
+
+}
+
+textarea{
+    text-align:center;
+    font-size:2em ;
+}
+
+.s1{
+   border: 1px solid blue;
+   width: 14vw;
+   position: relative;
+   left:54em ;
+   top:30px ;
+   background-color: rgb(9, 9, 240);
+   border-radius: 50px;
+}
+
+.s2{
+    color: white;
+}
+
+.s2:hover{
+    background-color:rgb(39, 70, 245);
+}
+
+.copy{
+    position: relative;
+    top:110px ;
+    font-size:30px ;
+    font-weight: bold;
+    color: black;
+}
